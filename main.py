@@ -9,7 +9,7 @@ def video_download():
     sg.popup_ok('Download Finished! Enjoy :)')
 
 #Layout
-sg.theme('Reddit')
+sg.theme('DarkRed1')
 layout = [
     [sg.Text('Input the link: '), sg.InputText()],
     [sg.Text('Choose Folder: '), sg.InputText(), sg.FolderBrowse()],
